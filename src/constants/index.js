@@ -6,18 +6,14 @@ import {
   javascript,
   cpp,
   csharp,
-  html,
   python,
   postgres,
   css,
   reactjs,
   java,
   git,
-  heroku,
-  flask,
   quixi,
   cvs,
-  threejs,
   studlog,
   mathgame,
   tuner,
@@ -80,28 +76,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Flask",
-    icon: flask,
-  },
-  {
     name: "Git",
     icon: git,
   },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "Heroku",
-    icon: heroku,
   },
   {
     name: "PostGres",
