@@ -8,7 +8,6 @@ import {
   csharp,
   python,
   postgres,
-  css,
   reactjs,
   java,
   git,
@@ -86,10 +85,6 @@ const technologies = [
   {
     name: "PostGres",
     icon: postgres,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
   },
 ];
 

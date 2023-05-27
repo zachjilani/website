@@ -10,7 +10,6 @@ import close from "./close.svg";
 import csharp from "./tech/csharp.png";
 import python from './tech/python.png';
 import postgres from "./tech/postgres.png";
-import css from "./tech/css.png";
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
@@ -36,7 +35,6 @@ export {
   close,
   python,
   postgres,
-  css,
   git,
   javascript,
   reactjs,
