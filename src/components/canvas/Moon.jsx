@@ -3,7 +3,6 @@ import { Canvas, useLoader, useFrame } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import * as THREE from 'three'
 import CanvasLoader from '../Loader';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 
 const Moon = ({ isMobile }) => {
