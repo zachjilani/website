@@ -10,13 +10,15 @@ const Moon = ({ isMobile }) => {
   const moon = useGLTF('./moon/scene.gltf')
 
   let mixer
-  if(moon.animations.length){
-    mixer = new THREE.AnimationMixer(moon.scene);
-    moon.animations.forEach(clip => {
-      const action = mixer.clipAction(clip)
-      action.play();
-    });
-  }
+
+  /*this is if I want to put back the small anim on the moon at the bottom.*/
+  // if(moon.animations.length){
+  //   mixer = new THREE.AnimationMixer(moon.scene);
+  //   moon.animations.forEach(clip => {
+  //     const action = mixer.clipAction(clip)
+  //     action.play();
+  //   });
+  // }
   useFrame((state, delta) => {
     mixer?.update(delta)
   })
