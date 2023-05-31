@@ -14,7 +14,10 @@ import {
   studlog,
   mathgame,
   depot,
-  code
+  code,
+  boids,
+  vr,
+  openai
 } from "../assets";
 
 export const navLinks = [
@@ -120,65 +123,15 @@ const projects = [
   {
     name: "Flocking Simulation",
     description:
-      ".",
+      "Program that approximates the behaivors of birds, fish, or anything else that may move to one another based off three main attributes.",
     tags: [
       {
         name: "javascript",
         color: "blue-text-gradient",
       }
     ],
-    image: "none",
-    source_code_link: "",
-  },
-  {
-    name: "Website",
-    description:
-      ".",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "threejs",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: "none",
-    source_code_link: "",
-  },
-  {
-    name: "VR Tower Defense Game",
-    description:
-      ".",
-    tags: [
-      {
-        name: "csharp",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "unity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vrif",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "emeraldai",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: "none",
-    source_code_link: "",
+    image: boids,
+    source_code_link: "https://github.com/zachjilani/sprite-and-boids",
   },
   {
     name: "StudLog",
@@ -204,6 +157,56 @@ const projects = [
     ],
     image: studlog,
     source_code_link: "https://github.com/gabe-santos/studlog",
+  },
+  {
+    name: "VR Tower Defense Game",
+    description:
+      "Collaboration on a virtual reality tower defense game where the player will build during the day, and defend during the night.",
+    tags: [
+      {
+        name: "csharp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "unity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vrif",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "emeraldai",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: vr,
+    source_code_link: "https://github.com/jordansprojects/On-the-Farm",
+  },
+  {
+    name: "OpenAI API Call",
+    description:
+      "very simple and quick program that utilizes OpenAI's API to create a prompted image. Mainly used to build off of.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "dall-e",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: openai,
+    source_code_link: "https://github.com/zachjilani/openai_api_call",
   },
   {
     name: "Math SMS Game",

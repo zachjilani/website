@@ -21,6 +21,9 @@ import depot from "./company/home.png";
 import studlog from "./studlog.png";
 import mathgame from "./mathgame.png";
 import code from "./code.png";
+import boids from "./boids.png";
+import vr from "./vr.png";
+import openai from "./openai.png";
 
 export {
   logo,
@@ -42,5 +45,8 @@ export {
   depot,
   studlog,
   mathgame,
-  code
+  code,
+  boids,
+  vr,
+  openai
 };
