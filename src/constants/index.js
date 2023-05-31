@@ -5,19 +5,13 @@ import {
   web,
   javascript,
   cpp,
-  csharp,
-  html,
   python,
   postgres,
-  css,
   reactjs,
   java,
   git,
-  heroku,
-  flask,
   quixi,
   cvs,
-  threejs,
   studlog,
   mathgame,
   tuner,
@@ -72,48 +66,35 @@ const technologies = [
     icon: cpp,
   },
   {
-    name: "C#",
-    icon: csharp,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Flask",
-    icon: flask,
   },
   {
     name: "Git",
     icon: git,
   },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "Heroku",
-    icon: heroku,
   },
   {
     name: "PostGres",
     icon: postgres,
   },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
 ];
 
 const experiences = [
+  {
+    title: "Deliveries",
+    company_name: "Home Depot",
+    icon: "none",
+    iconBg: "#151030",
+    date: "March 2022 - May 2023",
+    points: [
+      "Responsible for pulling, and verifying deliveries meant to be sent on delivery trucks.",
+      "Worked while finishing degree."
+    ],
+  },
   {
     title: "Full stack Software Engineer",
     company_name: "Quixi",
@@ -142,9 +123,72 @@ const experiences = [
 
 const projects = [
   {
+    name: "Flocking Simulation",
+    description:
+      ".",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: "none",
+    source_code_link: "",
+  },
+  {
+    name: "Website",
+    description:
+      ".",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: "none",
+    source_code_link: "",
+  },
+  {
+    name: "VR Tower Defense Game",
+    description:
+      ".",
+    tags: [
+      {
+        name: "csharp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "unity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vrif",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "emeraldai",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: "none",
+    source_code_link: "",
+  },
+  {
     name: "StudLog",
     description:
-      "Collaboration on a mobile and web application that allows students to monitor the amount of study hours needed for each class, and can modify the difficulties of each class.",
+      "Collaboration on a mobile and web application allowing students to monitor and modify study hours needed for each class.",
     tags: [
       {
         name: "java",
@@ -215,31 +259,6 @@ const projects = [
     ],
     image: code,
     source_code_link: "https://github.com/zachjilani/problems_algorithms",
-  },
-  {
-    name: "Guitar Tuner",
-    description:
-      "Guitar tuning application that simply played the notes of tuned guitar strings for self tuning.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "flask",
-        color: "green-text-gradient",
-      },
-      {
-        name: "html",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "css",
-        color: "orange-text-gradient"
-      }
-    ],
-    image: tuner,
-    source_code_link: "https://github.com/zachjilani/tuner-app",
   },
 ];
 

@@ -7,19 +7,13 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import csharp from "./tech/csharp.png";
 import python from './tech/python.png';
 import postgres from "./tech/postgres.png";
-import heroku from "./tech/heroku.png";
-import css from "./tech/css.png";
-import flask from "./tech/flask.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import java from "./tech/java.png";
 import cpp from "./tech/cpp.png";
-import threejs from "./tech/threejs.svg";
 
 import quixi from "./company/quixi.png";
 import cvs from "./company/cvs.png";
@@ -40,17 +34,11 @@ export {
   close,
   python,
   postgres,
-  css,
-  flask,
   git,
-  heroku,
-  html,
   javascript,
   reactjs,
   java,
-  csharp,
   cpp,
-  threejs,
   quixi,
   cvs,
   studlog,
