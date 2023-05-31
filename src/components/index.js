@@ -1,4 +1,4 @@
-import { MoonCanvas, BallCanvas, StarsCanvas, RobotCanvas, CoffeeCanvas } from './canvas';
+import { MoonCanvas, BallCanvas, StarsCanvas, CoffeeCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -18,6 +18,5 @@ export {
   MoonCanvas,
   BallCanvas,
   StarsCanvas,
-  RobotCanvas,
   CoffeeCanvas
 }

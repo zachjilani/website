@@ -20,7 +20,6 @@ import depot from "./company/home.png";
 
 import studlog from "./studlog.png";
 import mathgame from "./mathgame.png";
-import tuner from "./tuner.png";
 import code from "./code.png";
 
 export {
@@ -43,6 +42,5 @@ export {
   depot,
   studlog,
   mathgame,
-  tuner,
   code
 };

@@ -19,7 +19,6 @@ const Hero = () => {
             Welcome to the site!
           </p>
         </div>
-
       </div>
       <CoffeeCanvas />
       <div className='absolute xs:bottom-10 bottom-32
