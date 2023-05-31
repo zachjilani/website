@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -14,7 +13,7 @@ import {
   cvs,
   studlog,
   mathgame,
-  tuner,
+  depot,
   code
 } from "../assets";
 
@@ -35,19 +34,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Development",
     icon: web,
   },
   {
-    title: "Python Engineer",
+    title: "Full-Stack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Engineer",
-    icon: backend,
-  },
-  {
-    title: "React Developer",
+    title: "Data Engineering",
     icon: creator,
   },
 ];
@@ -87,7 +82,7 @@ const experiences = [
   {
     title: "Deliveries",
     company_name: "Home Depot",
-    icon: "none",
+    icon: depot,
     iconBg: "#151030",
     date: "March 2022 - May 2023",
     points: [

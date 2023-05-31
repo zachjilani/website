@@ -37,9 +37,9 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className='mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]'>
-        Hello! My name is Zach Jilani, and I'm passionate about software engineering and development. I recently graduated from
-        California State University, San Marcos with a bachelors in Computer Science. In my free time I love to create new
-        applications using anything that I find to be interesting at that time, and I am always looking to improve.
+        Hello! My name is Zach Jilani, I'm passionate about software engineering/development, complex problem solving, and
+        using new or interesting technologies. I graduated from California State University, San Marcos with a
+        bachelors in Computer Science. In my free time I love to spend time with my family, and build cool stuff!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

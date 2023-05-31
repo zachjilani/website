@@ -1,5 +1,4 @@
 import logo from "./logo.jpg";
-import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -17,6 +16,7 @@ import cpp from "./tech/cpp.png";
 
 import quixi from "./company/quixi.png";
 import cvs from "./company/cvs.png";
+import depot from "./company/home.png";
 
 import studlog from "./studlog.png";
 import mathgame from "./mathgame.png";
@@ -25,7 +25,6 @@ import code from "./code.png";
 
 export {
   logo,
-  backend,
   creator,
   mobile,
   web,
@@ -41,6 +40,7 @@ export {
   cpp,
   quixi,
   cvs,
+  depot,
   studlog,
   mathgame,
   tuner,
