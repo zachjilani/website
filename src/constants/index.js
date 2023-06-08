@@ -134,29 +134,29 @@ const projects = [
     source_code_link: "https://github.com/zachjilani/sprite-and-boids",
   },
   {
-    name: "StudLog",
+    name: "OpenAI API Calling",
     description:
-      "Collaboration on a mobile and web application allowing students to monitor and modify study hours needed for each class.",
+      "Python program utilizing OpenAI API to create a prompted image. Can be used as a base for other projects using OpenAI imaging.",
     tags: [
       {
-        name: "java",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "javafx",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "maven",
+        name: "api",
         color: "pink-text-gradient",
       },
       {
-        name: "android",
+        name: "dall-e",
         color: "orange-text-gradient",
       }
     ],
-    image: studlog,
-    source_code_link: "https://github.com/gabe-santos/studlog",
+    image: openai,
+    source_code_link: "https://github.com/zachjilani/openai_api_call",
   },
   {
     name: "VR Tower Defense Game",
@@ -182,81 +182,6 @@ const projects = [
     ],
     image: vr,
     source_code_link: "https://github.com/jordansprojects/On-the-Farm",
-  },
-  {
-    name: "OpenAI API Call",
-    description:
-      "very simple and quick program that utilizes OpenAI's API to create a prompted image. Mainly used to build off of.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "openai",
-        color: "green-text-gradient",
-      },
-      {
-        name: "api",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "dall-e",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: openai,
-    source_code_link: "https://github.com/zachjilani/openai_api_call",
-  },
-  {
-    name: "Math SMS Game",
-    description:
-      "Text based game that asks users to solve math problems that become increasingly more difficult, and keeps track of your score.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "flask",
-        color: "green-text-gradient",
-      },
-      {
-        name: "aws",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "twilio",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: mathgame,
-    source_code_link: "https://github.com/zachjilani/math_game",
-  },
-  {
-    name: "LeetCode and Algorithms",
-    description:
-      "An assortment of LeetCode problems, algorithms, and data structure work done over time.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "cpp",
-        color: "green-text-gradient",
-      },
-      {
-        name: "java",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "fsx",
-        color: "orange-text-gradient"
-      }
-    ],
-    image: code,
-    source_code_link: "https://github.com/zachjilani/problems_algorithms",
   },
 ];
 
