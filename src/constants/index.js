@@ -130,7 +130,7 @@ const projects = [
   {
     name: "Flocking Simulation",
     description:
-      "Program that approximates the behaivors of birds, fish, or anything else that may move to one another based off three main attributes.",
+      "Program that approximates the behavior of birds, fish, or anything else that may move to one another based off three main attributes.",
     tags: [
       {
         name: "javascript",
@@ -141,74 +141,24 @@ const projects = [
     source_code_link: "https://github.com/zachjilani/sprite-and-boids",
   },
   {
-    name: "StudLog",
+    name: "Weblog",
     description:
-      "Collaboration on a mobile and web application allowing students to monitor and modify study hours needed for each class.",
+      "A Java/Spring web application that implements Vaadin framework and PostgreSQL server to keep track of online applications, and more.",
     tags: [
       {
         name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "javafx",
+        name: "springboot",
         color: "green-text-gradient",
       },
       {
-        name: "maven",
+        name: "vaadin",
         color: "pink-text-gradient",
       },
       {
-        name: "android",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: studlog,
-    source_code_link: "https://github.com/gabe-santos/studlog",
-  },
-  {
-    name: "VR Tower Defense Game",
-    description:
-      "Collaboration on a virtual reality tower defense game where the player will build during the day, and defend during the night.",
-    tags: [
-      {
-        name: "csharp",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "unity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vrif",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "emeraldai",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: vr,
-    source_code_link: "https://github.com/jordansprojects/On-the-Farm",
-  },
-  {
-    name: "OpenAI API Call",
-    description:
-      "very simple and quick program that utilizes OpenAI's API to create a prompted image. Mainly used to build off of.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "openai",
-        color: "green-text-gradient",
-      },
-      {
-        name: "api",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "dall-e",
+        name: "postgresql",
         color: "orange-text-gradient",
       }
     ],
@@ -216,54 +166,29 @@ const projects = [
     source_code_link: "https://github.com/zachjilani/openai_api_call",
   },
   {
-    name: "Math SMS Game",
+    name: "3D Vector Node.js package",
     description:
-      "Text based game that asks users to solve math problems that become increasingly more difficult, and keeps track of your score.",
+      "A lightweight package used for creation and modification of three dimensional vectors in JavaScript using Chai for its TDD, and semantic-release for package release workflow.",
     tags: [
       {
-        name: "python",
+        name: "node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "flask",
+        name: "chai",
         color: "green-text-gradient",
       },
       {
-        name: "aws",
+        name: "javascript",
         color: "pink-text-gradient",
       },
       {
-        name: "twilio",
+        name: "semantic",
         color: "orange-text-gradient",
       }
     ],
-    image: mathgame,
-    source_code_link: "https://github.com/zachjilani/math_game",
-  },
-  {
-    name: "LeetCode and Algorithms",
-    description:
-      "An assortment of LeetCode problems, algorithms, and data structure work done over time.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "cpp",
-        color: "green-text-gradient",
-      },
-      {
-        name: "java",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "fsx",
-        color: "orange-text-gradient"
-      }
-    ],
-    image: code,
-    source_code_link: "https://github.com/zachjilani/problems_algorithms",
+    image: vr,
+    source_code_link: "https://github.com/zachjilani/vector3.js",
   },
 ];
 
