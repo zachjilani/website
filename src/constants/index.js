@@ -3,21 +3,15 @@ import {
   creator,
   web,
   javascript,
-  cpp,
   python,
   postgres,
   reactjs,
   java,
   git,
   quixi,
-  cvs,
-  studlog,
-  mathgame,
-  depot,
-  code,
   boids,
-  vr,
-  openai
+  studlog,
+  vr
 } from "../assets";
 
 export const navLinks = [
@@ -37,15 +31,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Java/Spring",
+    title: "Java/Spring Development",
     icon: web,
   },
   {
-    title: "Python/Flask",
+    title: "Python/Flask Development",
     icon: mobile,
   },
   {
-    title: "JavaScript",
+    title: "JavaScript Development",
     icon: creator,
   },
 ];
@@ -58,10 +52,6 @@ const technologies = [
   {
     name: "Java",
     icon: java,
-  },
-  {
-    name: "C++",
-    icon: cpp,
   },
   {
     name: "React JS",
@@ -84,7 +74,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "OTF",
-    icon: depot,
+    icon: vr,
     iconBg: "#151030",
     date: "January 2023 - May 2023",
     points: [
@@ -99,7 +89,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "StudLog",
-    icon: cvs,
+    icon: studlog,
     iconBg: "#151030",
     date: "August 2022 - December 2022",
     points: [
@@ -162,13 +152,13 @@ const projects = [
         color: "orange-text-gradient",
       }
     ],
-    image: openai,
+    image: "",
     source_code_link: "https://github.com/zachjilani/weblog",
   },
   {
-    name: "3D Vector Node.js package",
+    name: "Node.js Vector Package",
     description:
-      "A lightweight package used for creation and modification of three dimensional vectors in JavaScript using Chai for its TDD, and semantic-release for package release workflow.",
+      "A lightweight package for creation and modification of three dimensional vectors using Chai for TDD, and semantic-release for package release.",
     tags: [
       {
         name: "node.js",
@@ -183,11 +173,11 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "semantic-release",
+        name: "semantic",
         color: "orange-text-gradient",
       }
     ],
-    image: vr,
+    image: "",
     source_code_link: "https://github.com/zachjilani/vector3.js",
   },
 ];

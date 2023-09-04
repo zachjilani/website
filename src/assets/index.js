@@ -12,18 +12,14 @@ import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import java from "./tech/java.png";
-import cpp from "./tech/cpp.png";
 
 import quixi from "./company/quixi.png";
-import cvs from "./company/cvs.png";
-import depot from "./company/home.png";
+import studlog from "./company/studlog.png";
+import vr from "./company/vr.png";
 
-import studlog from "./studlog.png";
-import mathgame from "./mathgame.png";
-import code from "./code.png";
+
+
 import boids from "./boids.png";
-import vr from "./vr.png";
-import openai from "./openai.png";
 
 export {
   logo,
@@ -39,14 +35,8 @@ export {
   javascript,
   reactjs,
   java,
-  cpp,
   quixi,
-  cvs,
-  depot,
-  studlog,
-  mathgame,
-  code,
   boids,
-  vr,
-  openai
+  studlog,
+  vr
 };
