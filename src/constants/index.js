@@ -37,15 +37,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Software Development",
+    title: "Java/Spring",
     icon: web,
   },
   {
-    title: "Full-Stack Developer",
+    title: "Python/Flask",
     icon: mobile,
   },
   {
-    title: "Data Engineering",
+    title: "JavaScript",
     icon: creator,
   },
 ];
@@ -80,41 +80,48 @@ const technologies = [
     icon: postgres,
   },
 ];
-
 const experiences = [
   {
-    title: "Deliveries",
-    company_name: "Home Depot",
+    title: "Software Engineer",
+    company_name: "OTF",
     icon: depot,
     iconBg: "#151030",
-    date: "March 2022 - May 2023",
+    date: "January 2023 - May 2023",
     points: [
-      "Responsible for pulling, and verifying deliveries meant to be sent on delivery trucks.",
-      "Worked while finishing degree."
+      "Implemented virtual reality UI using C# and Unity.",
+      "Impacted player retention by 30% by improving movement controls.",
+      "Administered Agile development methodologies, leading to a 30% improvement in team efficiency and a 20% decrease in average project completion time.",
+      "Version control through Plastic SCM, and GitHub.",
+      "Achieved application efficiency and simplicity.",
+      "http://tinyurl.com/296rz48r"
     ],
   },
   {
-    title: "Full stack Software Engineer",
+    title: "Software Engineer",
+    company_name: "StudLog",
+    icon: cvs,
+    iconBg: "#151030",
+    date: "August 2022 - December 2022",
+    points: [
+      "Developed web application front end UI using Java and Spring Boot.",
+      "Version control through GitHub.",
+      "Assisted with requirements, scoping, and documentation."
+    ],
+  },
+  {
+    title: "Full Stack Software Engineer Intern",
     company_name: "Quixi",
     icon: quixi,
     iconBg: "#151030",
-    date: "June 2021 - December 2021",
+    date: "June 2021 - January 2022",
     points: [
-      "Maintained web application using Python and Flask along with other related technologies.",
-      "Helped with creating full end to end automation of services.",
-      "Handled issues with Jira, Github, and Sentry.",
-      "Implementing responsive design and ensuring cross-browser compatibility."
-    ],
-  },
-  {
-    title: "Manager",
-    company_name: "CVS",
-    icon: cvs,
-    iconBg: "#151030",
-    date: "Jan 2018 - July 2021",
-    points: [
-      "Management of scheduling and employee tasks.",
-      "Oversight on financial decisions and processes at store level."
+      "Improved user account creation and accessibility by implementing new automated system enrollment and company management.",
+      "Increased productivity for customers by by over 65% by developing features to add, remove, or edit their own facilities.",
+      "Creation of email templates with Postmark API, GoDaddy API for domain creation and Python for back-end logic.",
+      "Introduced and maintained new and existing front end UI using HTML, CSS, Jinja2, and JavaScript.",
+      "Utilization of Sentry for application performance, error monitoring, and issue tracking.",
+      "Agile development process through Jira and Slack.",
+      "Version control with GitHub."
     ],
   },
 ];
