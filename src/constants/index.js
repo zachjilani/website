@@ -163,7 +163,7 @@ const projects = [
       }
     ],
     image: openai,
-    source_code_link: "https://github.com/zachjilani/openai_api_call",
+    source_code_link: "https://github.com/zachjilani/weblog",
   },
   {
     name: "3D Vector Node.js package",
@@ -183,7 +183,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "semantic",
+        name: "semantic-release",
         color: "orange-text-gradient",
       }
     ],
